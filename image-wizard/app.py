@@ -5,7 +5,7 @@ import numpy as np
 from PIL import Image
 from io import BytesIO
 
-
+# Funtion to add LLM using Langchain
 
 # Function to execute generated OpenCV command
 def execute_opencv_command(opencv_command, image):
