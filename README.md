@@ -58,6 +58,4 @@ Contributions are welcome! Please feel free to submit a pull request or open an 
 ---
 
 Dive in and explore how LLMs can simplify complex image processing tasks with **Image Wizard**!
-```
 
-You can save this content as `README.md` in your project's root directory. Be sure to replace `https://github.com/yourusername/image-wizard.git` with the actual URL of your repository and add screenshots in the `screenshots` directory if you have any.
