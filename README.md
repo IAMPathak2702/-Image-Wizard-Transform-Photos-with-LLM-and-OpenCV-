@@ -13,7 +13,7 @@ Welcome to **Image Wizard**! This project leverages the power of Large Language 
 
 1. **Clone the repository**:
     ```bash
-    git clone [https://github.com/IAMPathak2702/Image-Wizard-Transform-Photos-with-LLM-and-OpenCV-.git](https://github.com/IAMPathak2702/Image-Wizard-Transform-Photos-with-LLM-and-OpenCV-.git)
+    git clone https://github.com/IAMPathak2702/Image-Wizard-Transform-Photos-with-LLM-and-OpenCV-.git
     cd image-wizard
     ```
 
