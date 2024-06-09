@@ -6,14 +6,14 @@ from PIL import Image
 from io import BytesIO
 
 # Function to generate OpenCV command using OpenAI
-def generate_opencv_command(natural_language_command, api_key):
-    openai.api_key = api_key
-    response = openai.Completion.create(
-        engine="text-davinci-003",
-        prompt=f"Convert the following natural language command into OpenCV code: {natural_language_command}",
-        max_tokens=100
-    )
-    return response.choices[0].text.strip()
+# def generate_opencv_command(natural_language_command, api_key):
+#     openai.api_key = api_key
+#     response = openai.Completion.create(
+#         engine="text-davinci-003",
+#         prompt=f"Convert the following natural language command into OpenCV code: {natural_language_command}",
+#         max_tokens=100
+#     )
+#     return response.choices[0].text.strip()
 
 # Function to execute generated OpenCV command
 def execute_opencv_command(opencv_command, image):
