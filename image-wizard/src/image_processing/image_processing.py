@@ -11,9 +11,12 @@ from torchvision.models.segmentation import deeplabv3_resnet50
 from ultralytics import YOLO
 
 
+def generate_opencv_command(user_input , api_key ):
+    pass
+    
 
-
-
+def remove_noise_from_image(image):
+    pass
 
 def execute_opencv_command(opencv_command, image):
     local_namespace = {'cv2': cv2, 'np': np, 'image': image}

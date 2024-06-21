@@ -86,8 +86,10 @@ def main():
         # Convert modified_image back to PIL for further manipulations
         modified_image_pil = Image.fromarray(cv2.cvtColor(modified_image, cv2.COLOR_BGR2RGB))
 
-        if style_transfer_option and style_image_file:
-            modified_image_pil = apply_style_transfer(modified_image_pil, style_image_file)
+        if style_transfer_option:
+            style_image_file = st.file_uploader(label="style image", type=["jpeg", "jpg","png"])
+            if style_image_file:
+                modified_image_pil = apply_style_transfer(modified_image_pil, style_image_file)
 
         if colorize_option:
             modified_image_pil = colorize_image(modified_image_pil)
